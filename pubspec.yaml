@@ -1,0 +1,37 @@
+name: curriculum_vitae
+description: A new Flutter project.
+publish_to: none
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/Background.jpg
+    - assets/DARA_SOPHORN.jpg
+
+  fonts:
+    - family: Elephant
+      fonts:
+        - asset: fonts/Elephant Regular/Elephant Regular.ttf
+
+    - family: Impact
+      fonts:
+        - asset: fonts/impact-font/impact.ttf
+        - asset: fonts/impact-font/Impacted.ttf
+        - asset: fonts/impact-font/unicode_impact.ttf
+
+    - family: TimesNewRoman
+      fonts:
+        - asset: fonts/times-new-roman-cufonfonts/times.ttf
